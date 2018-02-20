@@ -80,6 +80,162 @@
 1    _Pendragon Pendragon
 1    _Knight   Knight
 
+# End-of-sentence.
+1    EOS    !
+1    EOS    .
+1    EOS    ?
+
+# Pauses.
+1    Pause    ,
+1    Pause    ...
+1    Pause    --
+1    Pause    ;
+1    Pause    :
+
+# Coordinating conjunctions.
+1    CC    and
+1    CC    but
+1    CC    or
+1    CC    either
+1    CC    nor
+1    CC    neither
+1    CC    so
+
+# Numbers.
+1    Num    eight
+1    Num    five
+1    Num    one
+1    Num    5.5
+1    Num    sixty
+1    Num    5,000
+
+# Expletive.
+1    EX    there
+
+# Subordinating conjunctions.
+1    SC    that
+1    SC    so
+1    SC    while
+1    SC    because
+1    SC    if
+
+# Modals.
+1    MD    can
+1    MD    could
+1    MD    may
+1    MD    might
+1    MD    must
+1    MD    ought
+1    MD    shall
+1    MD    should
+1    MD    will
+1    MD    would
+
+
+# Adjectives.
+1    JJ    bloody
+1    JJ    weary
+1    JJ    unable
+1    JJ    trusty
+1    JJ    further
+1    JJ    sacred
+1    JJ    tropical
+1    JJ    indigenous
+1    JJ    temperate
+1    JJ    hot
+1    JJ    lucky
+1    JJ    simple
+1    JJ    tiny
+1    JJ    hard
+1    JJ    sensational
+1    JJ    comparable
+1    JJ    angolian
+1    JJ    yellow
+1    JJ    plodding
+
+# Comparative adjectives.
+1    JJR    bloodier
+1    JJR    wearier
+1    JJR    trustier
+1    JJR    hotter
+1    JJR    simpler
+1    JJR    tinier
+1    JJR    harder
+
+# Superlative adjectives.
+1    JJS    bloodiest
+1    JJS    weariest
+1    JJS    trustiest
+1    JJS    hottest
+1    JJS    simplest
+1    JJS    tiniest
+1    JJS    hardest
+
+# Plural nouns.
+1    NounS    coconuts
+1    NounS    halves
+1    NounS    snows
+1    NounS    mountains
+1    NounS    areas
+1    NounS    strangers
+1    NounS    inches
+1    NounS    snakes
+1    NounS    ants
+1    NounS    nights
+
+# More proper nouns, not people.
+
+1    Proper    Camelot
+1    Proper    England
+1    Proper    _Holy _Grail
+1    _Holy   Holy
+1    _Grail  Grail
+1    Proper    _Round _Table
+1    _Round  Round
+1    _Table  Table
+
+# Plural proper nouns.
+1    ProperS    Britons
+1    ProperS    Saxons
+
+# Personal pronouns.
+1    PRP    I
+1    PRP    he
+1    PRP    her
+1    PRP    him
+1    PRP    it
+1    PRP    one
+1    PRP    she
+1    PRP    them
+1    PRP    they
+
+
+# Possessive personal pronouns
+1    PRP$    her
+1    PRP$    his
+1    PRP$    its
+1    PRP$    their
+
+# Adverbs.
+1    RB    again
+1    RB    already
+1    RB    currently
+1    RB    frequently
+1    RB    precisely
+1    RB    south
+1    RB    successfully
+1    RB    unfortunately
+
+# 'do'/'does'
+1    DO    do
+1    DOES    does
+
+# 'to'
+1    TO    to
+
+# 'not'
+1    NOT    not
+
 # Verbs (third person singular present).
 # Note that only transitive verbs get our VerbT tag,
 # and some of those could also function as intransitives!
@@ -90,257 +246,101 @@
 1    VerbT    carries
 1    VerbT    rides
 
-# End-of-sentence.
-1    Misc    !
-1    Misc    .
-1    Misc    ?
-
-# Pauses.
-1    Misc    ,
-1    Misc    ...
-1    Misc    --
-1    Misc    ;
-1    Misc    :
-
-# Coordinating conjunctions.
-1    Misc    and
-1    Misc    but
-1    Misc    or
-1    Misc    either
-1    Misc    nor
-1    Misc    neither
-1    Misc    so
-
-# Numbers.
-1    Misc    eight
-1    Misc    five
-1    Misc    one
-1    Misc    5.5
-1    Misc    sixty
-1    Misc    5,000
-
-# Expletive.
-1    Misc    there
-
-# Subordinating conjunctions.
-1    Misc    that
-1    Misc    so
-1    Misc    while
-1    Misc    because
-1    Misc    if
-
-# Modals.
-1    Misc    can
-1    Misc    could
-1    Misc    may
-1    Misc    might
-1    Misc    must
-1    Misc    ought
-1    Misc    shall
-1    Misc    should
-1    Misc    will
-1    Misc    would
-
-
-# Adjectives.
-1    Misc    bloody
-1    Misc    weary
-1    Misc    unable
-1    Misc    trusty
-1    Misc    further
-1    Misc    sacred
-1    Misc    tropical
-1    Misc    indigenous
-1    Misc    temperate
-1    Misc    hot
-1    Misc    lucky
-1    Misc    simple
-1    Misc    tiny
-1    Misc    hard    
-1    Misc    sensational
-1    Misc    comparable
-1    Misc    angolian
-1    Misc    yellow
-1    Misc    plodding
-
-# Comparative adjectives.
-1    Misc    bloodier
-1    Misc    wearier
-1    Misc    trustier
-1    Misc    hotter
-1    Misc    simpler
-1    Misc    tinier
-1    Misc    harder
-
-# Superlative adjectives.
-1    Misc    bloodiest
-1    Misc    weariest
-1    Misc    trustiest
-1    Misc    hottest
-1    Misc    simplest
-1    Misc    tiniest
-1    Misc    hardest
-
-# Plural nouns.
-1    Misc    coconuts
-1    Misc    halves
-1    Misc    snows
-1    Misc    mountains
-1    Misc    areas
-1    Misc    strangers
-1    Misc    inches
-1    Misc    snakes
-1    Misc    ants
-1    Misc    nights
-
-# More proper nouns, not people.
-
-1    Misc    Camelot
-1    Misc    England
-1    Misc    _Holy _Grail
-1    _Holy   Holy
-1    _Grail  Grail
-1    Misc    _Round _Table
-1    _Round  Round
-1    _Table  Table
-
-# Plural proper nouns.
-1    Misc    Britons
-1    Misc    Saxons
-
-# Personal pronouns.
-1    Misc    I
-1    Misc    he
-1    Misc    her
-1    Misc    him
-1    Misc    it
-1    Misc    one
-1    Misc    she
-1    Misc    them
-1    Misc    they
-
-
-# Possessive personal pronouns
-1    Misc    her
-1    Misc    his
-1    Misc    its
-1    Misc    their
-
-# Adverbs.
-1    Misc    again
-1    Misc    already
-1    Misc    currently
-1    Misc    frequently
-1    Misc    precisely
-1    Misc    south
-1    Misc    successfully
-1    Misc    unfortunately
-
-# 'do'/'does'
-1    Misc    do
-1    Misc    does
-
-# 'to'
-1    Misc    to
-
-# 'not'
-1    Misc    not
-
 # Verbs (base form).
-1    Misc    have
-1    Misc    speak
-1    Misc    cover
-1    Misc    be
-1    Misc    ride
-1    Misc    drink
-1    Misc    grow
-1    Misc    carry
-1    Misc    suggest
-1    Misc    migrate
-1    Misc    know
+1    VerbT    have
+1    Verb    speak
+1    Verb    cover
+1    Verb    be
+1    Verb    ride
+1    Verb    drink
+1    Verb    grow
+1    Verb    carry
+1    VerbT    suggest
+1    Verb    migrate
+1    Verb    know
 
 # Verbs (past tense).
-1    Misc    had
-1    Misc    spoke
-1    Misc    covered
-1    Misc    was
-1    Misc    were
-1    Misc    rode
-1    Misc    drank
-1    Misc    grew
-1    Misc    carried
-1    Misc    suggested
-1    Misc    migrated
-1    Misc    knew
+1    VerbD    had
+1    VerbD    spoke
+1    VerbD    covered
+1    VerbD    was
+1    VerbD    were
+1    VerbD    rode
+1    VerbD    drank
+1    VerbD    grew
+1    VerbD    carried
+1    VerbD    suggested
+1    VerbD    migrated
+1    VerbD    knew
 
 # Verbs (present participles).
-1    Misc    having
-1    Misc    speaking
-1    Misc    covering
-1    Misc    being
-1    Misc    riding
-1    Misc    drinking
-1    Misc    growing
-1    Misc    carrying
-1    Misc    suggesting
-1    Misc    migrating
-1    Misc    knowing
+1    VerbG    having
+1    VerbG    speaking
+1    VerbG    covering
+1    VerbG    being
+1    VerbG    riding
+1    VerbG    drinking
+1    VerbG    growing
+1    VerbG    carrying
+1    VerbG    suggesting
+1    VerbG    migrating
+1    VerbG    knowing
 
 # Verbs (past participle).
-1    Misc    had
-1    Misc    spoken
-1    Misc    covered
-1    Misc    been
-1    Misc    ridden
-1    Misc    drunk
-1    Misc    grown
-1    Misc    carried
-1    Misc    suggested
-1    Misc    migrated
-1    Misc    known
+1    VerbN    had
+1    VerbN    spoken
+1    VerbN    covered
+1    VerbN    been
+1    VerbN    ridden
+1    VerbN    drunk
+1    VerbN    grown
+1    VerbN    carried
+1    VerbN    suggested
+1    VerbN    migrated
+1    VerbN    known
 
 # More third person singular verbs.
-1    Misc    speaks
-1    Misc    grows
-1    Misc    goes
-1    Misc    migrates
-1    Misc    suggests
-1    Misc    knows
+1    VerbS    speaks
+1    VerbS    grows
+1    VerbS    goes
+1    VerbS    migrates
+1    VerbS    suggests
+1    VerbS    knows
 
 # Verbs (present, plural, third person).
-1    Misc    have
-1    Misc    speak
-1    Misc    cover
-1    Misc    are
-1    Misc    ride
-1    Misc    drink
-1    Misc    grow
-1    Misc    carry
-1    Misc    suggest
-1    Misc    migrate
-1    Misc    know
+1    Verb    have
+1    VerbP    speak
+1    VerbP    cover
+1    VerbP    are
+1    VerbP    ride
+1    VerbP    drink
+1    VerbP    grow
+1    VerbP    carry
+1    VerbP    suggest
+1    VerbP    migrate
+1    VerbP    know
 
 # Wh-determiners.
-1    Misc    that
-1    Misc    what
-1    Misc    which
+1    WDT    that
+1    WDT    what
+1    WDT    which
 
 # Wh-pronouns.
-1    Misc    what
-1    Misc    who
+1    WP    what
+1    WP    who
 
 # Wh possessive pronoun.
-1    Misc    whose
+1    WP$    whose
 
 # Wh-adverbs
-1    Misc    how
-1    Misc    when
-1    Misc    where
-1    Misc    why
+1    WRB    how
+1    WRB    when
+1    WRB    where
+1    WRB    why
 
 
 # Possessive marker.
-1    Misc    's
+1    POS    's
 
 # Some additional words from Monty Python
 1    Misc    pull
