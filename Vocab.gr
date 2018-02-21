@@ -254,7 +254,7 @@
 1    VerbTS    has
 1    VerbTS    covers
 1    VerbS    covers
-1    VerbS    is
+1    VerbTS    is
 1    VerbTS    drinks
 1    VerbS    drinks
 1    VerbTS    carries
@@ -601,4 +601,13 @@
 1    Verb    run
 1    VerbN    run
 1    Misc    away
-
+1    Verb    do
+1    VerbT    do
+1    VerbS    does
+1    VerbTS    does
+1    VerbD    did
+1    VerbTD    did
+1    VerbG    doing
+1    VerbTG    doing
+1    VerbN    done
+1    VerbTN    done

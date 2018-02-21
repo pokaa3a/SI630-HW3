@@ -8,12 +8,20 @@
 
 1   S1   NP VP
 1   S1   NP _VP
-1   S1   CC NC
+1   S1   CCNC
+
+1   CCNC   CC NC
 
 1   NC   NP VP
+1   NC   WP VP
 1   NC   NP _VP
+1   NC   WP _VP
+1   NC   NP CCNC
+1   NC   NC CCNC
 
 1   _VP  VP Punc
+1   _VP  VP EOS
+
 
 1   VP   VerbT NP
 1   VP   MD VP
@@ -24,9 +32,20 @@
 1   VP   HAS VerbN
 1   VP   HAS VerbTN
 1   VP   VP PP
+1   VP   VPT NP
+1   VP   Verb
+1   VP   VerbS
+1   VP   VerbD
+1   VP   VerbG
+1   VP   VerbN
+
+1   VPT   VerbT
+1   VPT   VerbTS
 
 20  NP   Det Nbar
 1   NP   Proper
+1   NP   PRP
+1   NP   NP NC
 
 10  Nbar Noun
 1   Nbar Nbar PP
@@ -35,3 +54,5 @@
 
 # in case you use S1.gr by itself
 1   S2   Misc
+
+
