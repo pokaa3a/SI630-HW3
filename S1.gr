@@ -8,6 +8,7 @@
 
 1   S1   NP VP
 1   S1   NP _VP
+
 1   _VP  VP Punc
 
 1   VP   VerbT NP
