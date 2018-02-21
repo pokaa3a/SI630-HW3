@@ -239,86 +239,129 @@
 # Verbs (third person singular present).
 # Note that only transitive verbs get our VerbT tag,
 # and some of those could also function as intransitives!
-1    VerbT    has
-1    VerbT    covers
-1    VerbT    is
-1    VerbT    drinks
-1    VerbT    carries
-1    VerbT    rides
+1    VerbTS    has
+1    VerbTS    covers
+1    VerbS    covers
+1    VerbS    is
+1    VerbTS    drinks
+1    VerbS    drinks
+1    VerbTS    carries
+1    VerbS    carries
+1    VerbTS    rides
+1    VerbS    rides
 
 # Verbs (base form).
 1    VerbT    have
+1    VerbT    speak
 1    Verb    speak
+1    VerbT    cover
 1    Verb    cover
 1    Verb    be
+1    VerbT    ride
 1    Verb    ride
+1    VerbT    drink
 1    Verb    drink
+1    VerbT    grow
 1    Verb    grow
+1    VerbT    carry
 1    Verb    carry
 1    VerbT    suggest
 1    Verb    migrate
+1    VerbT    know
 1    Verb    know
 
 # Verbs (past tense).
 1    VerbD    had
+1    VerbTD    spoke
 1    VerbD    spoke
+1    VerbTD    covered
 1    VerbD    covered
 1    VerbD    was
 1    VerbD    were
+1    VerbTD    rode
 1    VerbD    rode
+1    VerbTD    drank
 1    VerbD    drank
+1    VerbTD    grew
 1    VerbD    grew
+1    VerbTD    carried
 1    VerbD    carried
-1    VerbD    suggested
+1    VerbTD    suggested
 1    VerbD    migrated
+1    VerbTD    knew
 1    VerbD    knew
 
 # Verbs (present participles).
-1    VerbG    having
+1    VerbTG    having
+1    VerbTG    speaking
 1    VerbG    speaking
+1    VerbTG    covering
 1    VerbG    covering
 1    VerbG    being
+1    VerbTG    riding
 1    VerbG    riding
+1    VerbTG    drinking
 1    VerbG    drinking
+1    VerbTG    growing
 1    VerbG    growing
+1    VerbTG    carrying
 1    VerbG    carrying
-1    VerbG    suggesting
+1    VerbTG    suggesting
 1    VerbG    migrating
+1    VerbTG    knowing
 1    VerbG    knowing
 
 # Verbs (past participle).
-1    VerbN    had
+1    VerbTN    had
 1    VerbN    spoken
+1    VerbN    spoken
+1    VerbTN    covered
 1    VerbN    covered
 1    VerbN    been
+1    VerbTN    ridden
 1    VerbN    ridden
+1    VerbTN    drunk
 1    VerbN    drunk
+1    VerbTN    grown
 1    VerbN    grown
+1    VerbTN    carried
 1    VerbN    carried
-1    VerbN    suggested
+1    VerbTN    suggested
 1    VerbN    migrated
+1    VerbTN    known
 1    VerbN    known
 
 # More third person singular verbs.
+1    VerbTS    speaks
 1    VerbS    speaks
+1    VerbTS    grows
 1    VerbS    grows
+1    VerbTS    goes
 1    VerbS    goes
 1    VerbS    migrates
-1    VerbS    suggests
+1    VerbTS    suggests
+1    VerbTS    knows
 1    VerbS    knows
 
 # Verbs (present, plural, third person).
-1    Verb    have
-1    VerbP    speak
-1    VerbP    cover
-1    VerbP    are
-1    VerbP    ride
-1    VerbP    drink
-1    VerbP    grow
-1    VerbP    carry
-1    VerbP    suggest
-1    VerbP    migrate
-1    VerbP    know
+1    VerbT    have
+1    VerbT    speak
+1    Verb    speak
+1    VerbT    cover
+1    Verb    cover
+1    Verb    are
+1    VerbT    ride
+1    Verb    ride
+1    VerbT    drink
+1    Verb    drink
+1    VerbT    grow
+1    Verb    grow
+1    VerbT    carry
+1    Verb    carry
+1    VerbT    suggest
+1    Verb    migrate
+1    VerbT    know
+1    Verb    know
 
 # Wh-determiners.
 1    WDT    that
