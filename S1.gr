@@ -8,10 +8,22 @@
 
 1   S1   NP VP
 1   S1   NP _VP
+1   S1   CC NC
+
+1   NC   NP VP
+1   NC   NP _VP
 
 1   _VP  VP Punc
 
 1   VP   VerbT NP
+1   VP   MD VP
+1   VP   BE VerbG
+1   VP   BE VerbTG
+1   VP   HAVE VerbN
+1   VP   HAVE VerbTN
+1   VP   HAS VerbN
+1   VP   HAS VerbTN
+1   VP   VP PP
 
 20  NP   Det Nbar
 1   NP   Proper

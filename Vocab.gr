@@ -230,6 +230,18 @@
 1    DO    do
 1    DOES    does
 
+# 'have'/'has'
+1    HAVE    have
+1    HAS    has
+
+# 'BE'
+1    BE    be
+1    BE    is
+1    BE    are
+1    BE    was
+1    BE    were
+1    BE    been
+
 # 'to'
 1    TO    to
 
