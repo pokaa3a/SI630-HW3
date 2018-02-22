@@ -96,6 +96,7 @@
 1   NP   NounS
 1   NP   Num NP
 1   NP   NP CCNP
+1   NP   VerbG PP
 
 1   JC   COMMAJC COMMA
 1   JC   COMMAJC
