@@ -66,6 +66,9 @@
 1   VP   RB VP
 1   VP   BEVERBG
 1   VP   BEVERBN
+1   VP   BE JJ
+1   VP   BE PP
+
 
 1   MDNOT   MD NOT
 
@@ -105,6 +108,7 @@
 1   Nbar Nbar PP
 
 1   PP   Prep NP
+1   PP   TO   NP
 
 # in case you use S1.gr by itself
 1   S2   Misc

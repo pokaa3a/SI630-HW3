@@ -84,7 +84,7 @@
 # End-of-sentence.
 1    EOS    !
 1    EOS    .
-1    EOS    ?
+1    QUM    ?
 
 # Pauses.
 1    Pause    ,
@@ -234,7 +234,7 @@
 
 # 'do'/'does'
 1    DO    do
-1    DOES    does
+1    DO    does
 
 # 'have'/'has'
 1    HAVE    have
@@ -372,7 +372,7 @@
 1    Verb    speak
 1    VerbT    cover
 1    Verb    cover
-1    Verb    are
+1    VerbT    are
 1    VerbT    ride
 1    Verb    ride
 1    VerbT    drink
