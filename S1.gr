@@ -10,10 +10,15 @@
 1   S1   NP _VP
 1   S1   NC CCNC
 1   S1   CCNC
+1   S1   _VP
 
 1   CCNC   CC NC
 1   CCNC   SC NC
 1   CCVP   CC VP
+
+1   _AC   AC Pause
+
+1   AC   Pause NP
 
 1   NC   NP VP
 1   NC   WP VP
@@ -27,6 +32,7 @@
 
 1   VP   VerbT NP
 1   VP   MD VP
+1   VP   MDNOT VP
 1   VP   BE VerbG
 1   VP   BE VerbTG
 1   VP   HAVE VerbN
@@ -44,13 +50,20 @@
 1   VP   VP CCVP
 1   VP   RB VP
 1   VP   VP RB
+1   VP   BEVERBG PP
+
+1   MDNOT   MD NOT
 
 1   VPT   VerbT
 1   VPT   VerbTS
-1   VPT   BEVERB BY
+1   VPT   BEVERBN BY
+1   VPT   BEVERBTG
 
-1   BEVERB   BE VerbN
-1   BEVERB   BE VerbTN
+1   BEVERBN   BE VerbN
+1   BEVERBN   BE VerbTN
+
+1   BEVERBG   BE VerbG
+1   BEVERBTG   BE VerbTG
 
 20  NP   Det Nbar
 1   NP   Det NP
@@ -60,6 +73,8 @@
 1   NP   Noun
 1   NP   JJ Noun
 1   NP   PRP$ NP
+1   NP   Num NounS
+1   NP   NP _AC
 
 10  Nbar Noun
 1   Nbar Nbar PP
