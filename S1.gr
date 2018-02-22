@@ -11,6 +11,26 @@
 1   S1   NC CCNC
 1   S1   CCNC
 1   S1   _VP
+1   S1   _SQ QUM
+
+1   _SQ  SQ
+1   _SQ  WP SQ
+1   _SQ  WRB SQ
+
+1   SQ  NPQ  VPQ
+1   SQ  NPQG VPQG
+
+1   NPQ DO  NP
+
+1   NPQG BE NP
+
+1   VPQ Verb
+1   VPQ VerbT NP
+1   VPQ VerbT NC
+
+1   VPQG VerbG
+1   VPQG VerbTG NP
+1   VPQG VerbTG NC
 
 1   CCNC   CC NC
 1   CCNC   SC NC
@@ -51,6 +71,8 @@
 1   VP   RB VP
 1   VP   VP RB
 1   VP   BEVERBG PP
+1   VP   BE JJ
+1   VP   BE PP
 
 1   MDNOT   MD NOT
 
@@ -75,11 +97,14 @@
 1   NP   PRP$ NP
 1   NP   Num NounS
 1   NP   NP _AC
+1   NP   VerbG PP
+1   NP   NounS
 
 10  Nbar Noun
 1   Nbar Nbar PP
 
 1   PP   Prep NP
+1   PP   TO   NP
 
 # in case you use S1.gr by itself
 1   S2   Misc
