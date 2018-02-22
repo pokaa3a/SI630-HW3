@@ -6,75 +6,100 @@
 
 # This is a very, very, very simple grammar to get you started.
 
-1   S1   NP VP
 1   S1   NP _VP
-1   S1   NC CCNC
-1   S1   CCNC
+1   S1   CCNC _CCNC
+1   S1   CCNP _CCNC
+1   S1   NC _RBC
 1   S1   _VP
+1   S1   RBC _NC
+1   S1   _SQ QUM
+
+1   _SQ  SQ
+1   _SQ  WP SQ
+1   _SQ  WRB SQ
+
+1   SQ  NPQ  VPQ
+1   SQ  NPQG VPQG
+
+1   NPQ DO  NP
+
+1   NPQG BE NP
+
+1   VPQ Verb
+1   VPQ VerbT NP
+1   VPQ VerbT NC
+
+1   VPQG VerbG
+1   VPQG VerbTG NP
+1   VPQG VerbTG NC
+
+1   _VP   VP EOS
+1   _CCNC   CCNC EOS
+1   _VP  VP EOS
+1   _RBC   RBC EOS
+1   _NC   NC EOS
+
+1   RBC   SC NC
+1   RBC   WRB NCCOMMA
+1   NCCOMMA NC COMMA
 
 1   CCNC   CC NC
-1   CCNC   SC NC
+1   CCNP   CC NP
 1   CCVP   CC VP
+1   CCNP   CC NP
 
-1   _AC   AC Pause
+1   WHNC   WDT NC
 
-1   AC   Pause NP
-
-1   NC   NP VP
-1   NC   WP VP
-1   NC   NP _VP
-1   NC   WP _VP
-1   NC   NP CCNC
-1   NC   NC CCNC
-
-1   _VP  VP Punc
-1   _VP  VP EOS
-
-1   VP   VerbT NP
 1   VP   MD VP
 1   VP   MDNOT VP
-1   VP   BE VerbG
-1   VP   BE VerbTG
 1   VP   HAVE VerbN
-1   VP   HAVE VerbTN
-1   VP   HAS VerbN
-1   VP   HAS VerbTN
 1   VP   VP PP
+1   VP   BE VerbG
 1   VP   VPT NP
 1   VP   VPT NC
+1   VP   VPT WHNC
 1   VP   Verb
 1   VP   VerbS
 1   VP   VerbD
-1   VP   VerbG
-1   VP   VerbN
 1   VP   VP CCVP
-1   VP   RB VP
 1   VP   VP RB
-1   VP   BEVERBG PP
+1   VP   RB VP
+1   VP   BEVERBG
+1   VP   BEVERBN
 
 1   MDNOT   MD NOT
 
 1   VPT   VerbT
 1   VPT   VerbTS
-1   VPT   BEVERBN BY
+1   VPT   VerbTD
 1   VPT   BEVERBTG
+1   VPT   BEVERBTN BY
 
 1   BEVERBN   BE VerbN
-1   BEVERBN   BE VerbTN
-
+1   BEVERBTN   BE VerbTN
 1   BEVERBG   BE VerbG
 1   BEVERBTG   BE VerbTG
+
+1   NC   NP VP
 
 20  NP   Det Nbar
 1   NP   Det NP
 1   NP   Proper
 1   NP   PRP
-1   NP   NP NC
-1   NP   Noun
-1   NP   JJ Noun
+1   NP   NP JC
+1   NP   JJ NP
 1   NP   PRP$ NP
-1   NP   Num NounS
-1   NP   NP _AC
+1   NP   Noun
+1   NP   NounS
+1   NP   Num NP
+1   NP   NP CCNP
+
+1   JC   COMMAJC COMMA
+1   JC   COMMAJC
+1   JC   WP VP
+1   JC   WDT VP
+
+1   COMMAJC COMMA NP
 
 10  Nbar Noun
 1   Nbar Nbar PP
