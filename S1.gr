@@ -8,9 +8,12 @@
 
 1   S1   NP VP
 1   S1   NP _VP
+1   S1   NC CCNC
 1   S1   CCNC
 
 1   CCNC   CC NC
+1   CCNC   SC NC
+1   CCVP   CC VP
 
 1   NC   NP VP
 1   NC   WP VP
@@ -22,7 +25,6 @@
 1   _VP  VP Punc
 1   _VP  VP EOS
 
-
 1   VP   VerbT NP
 1   VP   MD VP
 1   VP   BE VerbG
@@ -33,19 +35,31 @@
 1   VP   HAS VerbTN
 1   VP   VP PP
 1   VP   VPT NP
+1   VP   VPT NC
 1   VP   Verb
 1   VP   VerbS
 1   VP   VerbD
 1   VP   VerbG
 1   VP   VerbN
+1   VP   VP CCVP
+1   VP   RB VP
+1   VP   VP RB
 
 1   VPT   VerbT
 1   VPT   VerbTS
+1   VPT   BEVERB BY
+
+1   BEVERB   BE VerbN
+1   BEVERB   BE VerbTN
 
 20  NP   Det Nbar
+1   NP   Det NP
 1   NP   Proper
 1   NP   PRP
 1   NP   NP NC
+1   NP   Noun
+1   NP   JJ Noun
+1   NP   PRP$ NP
 
 10  Nbar Noun
 1   Nbar Nbar PP

@@ -62,6 +62,7 @@
 1    Prep    over
 1    Prep    through
 1    Prep    with
+1    Prep    to
 
 # Proper nouns.  Note that our Proper tag is just for people.
 1    Proper    Arthur
@@ -240,7 +241,12 @@
 1    BE    are
 1    BE    was
 1    BE    were
-1    BE    been
+1    BE    HAVE BEEN
+1    BE    HAS BEEN
+1    BEEN    been
+
+# 'by'
+1    BY    by
 
 # 'to'
 1    TO    to
